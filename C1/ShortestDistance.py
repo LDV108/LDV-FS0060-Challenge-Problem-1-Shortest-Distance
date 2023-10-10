@@ -29,10 +29,10 @@ def degtokm_calc(dis):
 
 
 def degtorad_calc(deg):
-    rad = deg * (math.pi / 180)
+    rad = deg * (180/math.pi)
     return rad
 
-
+#
 # distanceDeg = gdc_calc(LE_LONG, LE_LAT, SF_LONG, SF_LAT)
 # print(distanceDeg)
 # distanceKM = degtokm_calc(distanceDeg)
@@ -46,3 +46,6 @@ print("Calculated result:" ,distanceDeg2,"km")
 # print(distanceKM2,"km")
 
 print("Expected result:" ,EXPECTED_RESULT, "km")
+
+
+
