@@ -29,7 +29,7 @@ def degtokm_calc(dis):
 
 
 def degtorad_calc(deg):
-    rad = deg * (math.pi / 180)
+    rad = deg * (180 / math.pi)
     return rad
 
 
